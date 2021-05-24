@@ -11,8 +11,6 @@ public class Main {
        Main parimpar = new Main();
         Hacer_Listas_Numeros();
         presentar_Numeros();
-
-
     }
 
     public static  void  Hacer_Listas_Numeros(){
@@ -26,8 +24,7 @@ public class Main {
     }
 
     public static void presentar_Numeros() {
-        pares.stream().filter(x -> x.toString().startsWith("2")).forEach(System.out::println);
-       // System.out.println("Numeros pares: \n" + pares);
-        //System.out.println("Numeros impares: \n" + impares);
+        System.out.println("Numeros pares: \n" + pares);
+        System.out.println("Numeros impares: \n" + impares);
     }
 }
