@@ -1,0 +1,21 @@
+
+J
+java:S3740"/Provide the parametrized type for this generic.(Š€¡Çÿÿÿÿÿ
+J
+java:S3740"/Provide the parametrized type for this generic.(Š€¡Çÿÿÿÿÿ
+E
+java:S3740"/Provide the parametrized type for this generic.(½å™Ã
+E
+java:S3740"/Provide the parametrized type for this generic.(½å™Ã
+W
+java:S1854"<Remove this useless assignment to local variable "parimpar".(Ç §Ëþÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(Ç §Ëþÿÿÿÿ
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›âæ
+J
+java:S6212"/Declare this local variable with "var" instead.(º›£þÿÿÿÿ
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«åè»üÿÿÿÿ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ãƒºžùÿÿÿÿ8é–ì×˜/
+Q	java:S125"<This block of commented-out lines of code should be removed.(€ì‚¢
+H
+java:S1481"-Remove this unused "parimpar" local variable.(Ç §Ëþÿÿÿÿ
