@@ -1,12 +1,13 @@
 package src;
 
 public class Persona {
-    private String nombre;
-    private int edad;
-    private String DNI;
-    private  char sexo;
-    private double peso;
-    private double altura;
+
+    private String nombre = "";
+    private int edad = 0;
+    private String DNI = generaDNI();
+    private  char sexo = 'H';
+    private double peso = 0;
+    private double altura = 0;
 
     public Persona() {
     }
@@ -17,7 +18,7 @@ public class Persona {
         this.sexo = sexo;
     }
 
-    public Persona(String nombre, int edad, String DNI, char sexo, double peso, double altura) {
+    public Persona(String nombre, int edad,  char sexo, double peso, double altura) {
         this.nombre = nombre;
         this.edad = edad;
         this.DNI = DNI;
@@ -45,7 +46,7 @@ public class Persona {
     public String getDNI() {
         return DNI;
     }
-    
+
     public char getSexo() {
         return sexo;
     }
@@ -70,7 +71,7 @@ public class Persona {
         this.altura = altura;
     }
 
-    public int calcularIMC(){
+    public double calcularIMC(){
         double imc = (getPeso()/(Math.pow(getAltura(),2)));
             if(imc < 20){
                 return -1;
@@ -94,5 +95,16 @@ public class Persona {
             return 'M';
         }
         return 'H';
+    }
+
+    public String generaDNI(){
+        int num = (int) Math.round(Math.random()*100_000_000);
+        int numletter = num % 23;
+        DNI dni = new DNI();
+        return String.valueOf(num)+dni.letter(numletter);
+    }
+
+    public String toString(){
+        return getNombre()+" "+ String.valueOf(getEdad())+" "+ getDNI()+" "+ getSexo()+" "+ getPeso()+" "+ getAltura();
     }
 }
