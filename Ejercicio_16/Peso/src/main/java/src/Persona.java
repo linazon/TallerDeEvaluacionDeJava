@@ -5,7 +5,7 @@ public class Persona {
     private String nombre = "";
     private int edad = 0;
     private String DNI = generaDNI();
-    private  char sexo = 'H';
+    private  char sexo =  'H';
     private double peso = 0;
     private double altura = 0;
 
@@ -83,11 +83,26 @@ public class Persona {
          return 0;
     }
 
+    public String buscarPeso(){
+        double v = calcularIMC();
+        if (v == 0) {
+            return "debajo de su peso ideal";
+        } else if (v == 1) {
+            return "sobrepeso";
+        }
+            return "peso ideal";
+
+    }
+
     public boolean esMayorDeEdad(){
         if(getEdad()>18){
             return true;
         }
         return false;
+    }
+    public String mayorEdad(){
+        String mayor =(esMayorDeEdad())? "Es mayor de edad":"No es mayor de edad";
+        return mayor;
     }
 
     public char comprobarSexo(char sexo){
@@ -105,6 +120,11 @@ public class Persona {
     }
 
     public String toString(){
-        return getNombre()+" "+ String.valueOf(getEdad())+" "+ getDNI()+" "+ getSexo()+" "+ getPeso()+" "+ getAltura();
+        return "Nombre: "+getNombre()+
+                ", Edad: "+getEdad()+
+                ", DNI: "+ getDNI()+
+                ", Sexo: "+ comprobarSexo(getSexo())+
+                ", Peso: "+ getPeso()+
+                ", Altura: "+ getAltura();
     }
 }
