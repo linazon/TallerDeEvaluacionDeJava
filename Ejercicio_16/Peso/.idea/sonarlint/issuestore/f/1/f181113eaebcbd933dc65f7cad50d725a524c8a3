@@ -1,0 +1,14 @@
+
+|
+java:S4165"aRemove this useless assignment; "DNI" already holds the assigned value along all execution paths.(È÷§‡ûÿÿÿÿ
+z
+java:S1488h"]Immediately return this expression instead of assigning it to the temporary variable "mayor".(´á€±8¥½±þš/
+h	java:S116"NRename this field "DNI" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆö˜¥øÿÿÿÿ
+W
+java:S1126b"AReplace this if-then-else statement by a single return statement.(õÿë“
+F
+java:S1172l"+Remove this unused method parameter "sexo".(§Œ·Üùÿÿÿÿ
+?
+java:S2140t")Use "java.util.Random.nextInt()" instead.(ôÒ¾å
+J
+java:S6212v"/Declare this local variable with "var" instead.(„ÚÞŒýÿÿÿÿ
