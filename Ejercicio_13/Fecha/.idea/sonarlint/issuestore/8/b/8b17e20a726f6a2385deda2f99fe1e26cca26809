@@ -1,0 +1,11 @@
+
+H
+java:S1128"-Remove this unused import 'java.util.Locale'.(åğ×±ûÿÿÿÿ
+K
+java:S1128"0Remove this unused import 'java.time.LocalDate'.(›‘¬èıÿÿÿÿ
+K
+java:S1128"0Remove this unused import 'java.time.LocalTime'.(à®øÃùÿÿÿÿ
+J
+java:S6212
+"/Declare this local variable with "var" instead.(™Ş¬ùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¶Ã¡Åùÿÿÿÿ
