@@ -1,4 +1,4 @@
-package src;
+package src.listas;
 
 public class Tamaño {
     public int valorTamaño(int tamaño){

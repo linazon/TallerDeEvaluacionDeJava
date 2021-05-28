@@ -1,6 +1,10 @@
 package src;
 
 
+import src.listas.Color;
+import src.listas.Consumo;
+import src.listas.Tamaño;
+
 public class Electrodomestico {
     Color listaColor = new Color();
     Consumo consumo = new Consumo();
