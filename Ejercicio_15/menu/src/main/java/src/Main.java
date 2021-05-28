@@ -14,23 +14,11 @@ public class Main {
 
              switch (opcion){
                  case 1:
-                     main.menu();
-                     break;
                  case 2:
-                     main.menu();
-                     break;
                  case 3:
-                     main.menu();
-                     break;
                  case 4:
-                     main.menu();
-                     break;
                  case 5:
-                     main.menu();
-                     break;
                  case 6:
-                     main.menu();
-                     break;
                  case 7:
                      main.menu();
                      break;
