@@ -45,7 +45,5 @@ public class Serie {
         this.creador = creador;
     }
 
-    public String toString(){
-        return getTitulo() + getNumTemporadas() + entregado+ getGenero()+ getCreador();
-    }
+
 }

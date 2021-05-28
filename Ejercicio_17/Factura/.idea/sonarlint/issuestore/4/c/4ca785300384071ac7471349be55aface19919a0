@@ -1,0 +1,6 @@
+
+|
+java:S14885"aImmediately return this expression instead of assigning it to the temporary variable "resultado".(¾Íåıÿÿÿÿ
+l	java:S116"RRename this field "tamaÃ±o" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üô´âüÿÿÿÿ
+E
+java:S6212:"/Declare this local variable with "var" instead.(–ÕÙ®

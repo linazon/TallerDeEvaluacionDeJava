@@ -1,0 +1,21 @@
+
+J
+java:S6212"/Declare this local variable with "var" instead.(šìïûÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(†…•Ö
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ú×Šûÿÿÿÿ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(áÇ‰Üøÿÿÿÿ8Ğöºˆ›/
+]
+java:S1612"GReplace this lambda with method reference 'Lavadora.class::isInstance'.(íìÎ•
+U	java:S106"9Replace this use of System.out or System.err by a logger.(íìÎ•8ÄÔ»ˆ›/
+]
+java:S1612"GReplace this lambda with method reference 'Lavadora.class::isInstance'.(™ôœË
+k
+java:S1612"IReplace this lambda with method reference 'Television.class::isInstance'.(Äè©ˆüÿÿÿÿ8Íöºˆ›/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Äè©ˆüÿÿÿÿ8‚Éˆ›/
+f
+java:S1612 "IReplace this lambda with method reference 'Television.class::isInstance'.(ë°úÆ8ÁÔ»ˆ›/
+l
+java:S1612#"OReplace this lambda with method reference 'Electrodomestico.class::isInstance'.(ËØ­°8¶³¿ˆ›/
+U	java:S106#"9Replace this use of System.out or System.err by a logger.(ËØ­°8‚†Òˆ›/
+q
+java:S1612$"OReplace this lambda with method reference 'Electrodomestico.class::isInstance'.(ßã‡¦ÿÿÿÿÿ8ÌúÏˆ›/

@@ -1,0 +1,28 @@
+
+a
+java:S2259$"FA "NullPointerException" could be thrown; "persona1" is nullable here.(Õñøÿÿÿÿ
+a
+java:S2259%"FA "NullPointerException" could be thrown; "persona2" is nullable here.(Ì‘Ôüÿÿÿÿ
+F
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
+J
+java:S6212"/Declare this local variable with "var" instead.(Úª–½üÿÿÿÿ
+J
+java:S6212
+"/Declare this local variable with "var" instead.(â»Õõıÿÿÿÿ
+E
+java:S6212"/Declare this local variable with "var" instead.(ëÓˆ¦
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ï‰¾Ï
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ëêççüÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(èáñëÿÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(²ıÙĞ
+J
+java:S6212"/Declare this local variable with "var" instead.(°ì¤ğÿÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(èà¯¯
+E
+java:S6212"/Declare this local variable with "var" instead.(ƒ¯†£
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¬«¢©
+J
+java:S6212"/Declare this local variable with "var" instead.(‡ğÎÅúÿÿÿÿ
+N	java:S106#"9Replace this use of System.out or System.err by a logger.(•²Âû
