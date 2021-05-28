@@ -21,16 +21,6 @@ public class Main {
         System.out.println("\n Precio total de Televisores: "+Main.sumaTelevisor(electrodomesticos));
         System.out.println("\n Precio total de Electrodomesticos: "+Main.sumaElectrodomestico(electrodomesticos));
 
-        //Main.filtrarPorInstanciaTelevisor(electrodomesticos);
-       // Main.filtrarPorInstanciaElectrodomestico(electrodomesticos);
-
-        /*Electrodomestico electrodomestico = new Electrodomestico(100,"Blanco",'X',40);
-        Lavadora lavadora = new Lavadora(100,"Blanco",'X',40,20);
-        Television television = new Television(100,"NEGRO",'W',50,50,true);
-        //electrodomestico.comprobarConsumoEnergetico('Y');
-        System.out.println(television.precioFinal());*/
-
-
     }
     public static Double sumaLavadora(Electrodomestico[] electrodomesticos){
         Arrays.stream(electrodomesticos).filter(ele -> ele instanceof Lavadora).forEach(lav -> System.out.println("precio de lavadora "+  lav.precioFinal()));
